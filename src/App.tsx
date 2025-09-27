@@ -297,7 +297,7 @@ const Testimonials: React.FC = () => {
       name: "Pawan Kumar",
       location: "Mumbai, India",
       score: "Band 8.5",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150",
+      image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=150",
       text: "The AI band score prediction helped me focus on my weak areas, and the flexible schedule fit my busy life perfectly. Highly recommended!"
     },
     {
