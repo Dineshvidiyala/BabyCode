@@ -287,19 +287,19 @@ const Features: React.FC = () => {
 const Testimonials: React.FC = () => {
   const testimonials = [
   {
-    name: "Bhavana",
-    location: "Hyderabad, India",
-    score: "Band 8.0",
-    image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150",
-    text: "IELTS Masters transformed my preparation with their expert speaking sessions. The mock tests were a game-changer for my real exam!"
-  },
-  {
-    name: "Pawan Kumar",
-    location: "Mumbai, India",
-    score: "Band 8.5",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
-    text: "The AI band score prediction helped me focus on my weak areas, and the flexible schedule fit my busy life perfectly. Highly recommended!"
-  },
+      name: "Bhavana",
+      location: "Hyderabad, India",
+      score: "Band 8.0",
+      image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150",
+      text: "IELTS Masters transformed my preparation with their expert speaking sessions. The mock tests were a game-changer for my real exam!"
+    },
+    {
+      name: "Pawan Kumar",
+      location: "Mumbai, India",
+      score: "Band 8.5",
+      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150",
+      text: "The AI band score prediction helped me focus on my weak areas, and the flexible schedule fit my busy life perfectly. Highly recommended!"
+    },
     {
       name: "Dinesh ",
       location: "Bangalore, India",
