@@ -20,6 +20,27 @@ const About = () => {
     }
   ];
 
+  const teamMembers = [
+    {
+      name: "Priya Nair",
+      role: "Lead Instructor",
+      image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150",
+      bio: "With over 10 years of IELTS training experience, Priya specializes in Speaking and Writing modules."
+    },
+    {
+      name: "Ravi Kumar",
+      role: "Curriculum Designer",
+      image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
+      bio: "Ravi crafts our innovative courses, integrating AI tools to predict and improve student performance."
+    },
+    {
+      name: "Anjali Desai",
+      role: "Student Support Lead",
+      image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150",
+      bio: "Anjali ensures every student gets personalized support, 24/7, to succeed in their IELTS journey."
+    }
+  ];
+
   return (
     <div className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,7 +84,7 @@ const About = () => {
         </div>
 
         {/* Values Section */}
-        <div>
+        <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((value, index) => (
@@ -78,8 +99,42 @@ const About = () => {
           </div>
         </div>
 
+        {/* Meet Our Team Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Meet Our Team</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {teamMembers.map((member, index) => (
+              <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
+                <p className="text-gray-600 mb-2">{member.role}</p>
+                <p className="text-gray-600 leading-relaxed">{member.bio}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Join Us Section */}
+        <div className="bg-blue-50 rounded-lg p-8 text-center mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Join IELTS Masters Today</h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6 leading-relaxed">
+            Start your journey to IELTS success with our expert-led courses and personalized support. 
+            Book a free trial now and see the difference!
+          </p>
+          <a
+            href="#"
+            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Book Free Trial
+          </a>
+        </div>
+
         {/* Stats Section */}
-        <div className="mt-16 bg-blue-50 rounded-lg p-8">
+        <div className="bg-blue-50 rounded-lg p-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-blue-600 mb-2">10,000+</div>
