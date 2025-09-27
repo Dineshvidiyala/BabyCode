@@ -294,7 +294,7 @@ const Testimonials: React.FC = () => {
     text: "IELTS Masters transformed my preparation with their expert speaking sessions. The mock tests were a game-changer for my real exam!"
   },
   {
-    name: "Pawan ",
+    name: "Pawan Kumar",
     location: "Mumbai, India",
     score: "Band 8.5",
     image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
